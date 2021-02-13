@@ -1,0 +1,92 @@
+<!doctype html> 
+<html> 
+<head> 
+  <title>Зоопарк</title> 
+  <style>
+    body {
+        overflow: hidden;
+    }
+    #map {
+        z-index: 9;
+        overflow: hidden;
+        position: relative;
+        /*height: 100%;*/
+        width: 1000000%; /* Просто очень большое число, иначе картинки начинают обрезаться при увеличении. Наверняка есть способ адекватнее */
+    }
+    .mapel {
+        white-space: nowrap; /* Чтобы картинки не переносились */
+        position: relative;
+        /*height: 100%;*/
+        display: flex; /* Чтобы картинки не переносились */
+
+    }
+    .segment {
+        float: left;
+        /*display: flex;*/
+    }
+  </style>
+</head> 
+
+<body> 
+    <div id="map">
+        <span class="mapel">
+            <img class="segment" src="0.svg"> 
+            <img class="segment" src="1.svg">
+            <img class="segment" src="2.svg">
+        </span>
+        <span class="mapel">
+            <img class="segment" src="3.svg"> 
+            <img class="segment" src="4.svg">
+            <img class="segment" src="5.svg">
+        </span>
+        <span class="mapel">
+            <img class="segment" src="6.svg"> 
+            <img class="segment" src="7.svg">
+            <img class="segment" src="8.svg">
+        </span>
+    </div>
+</body> 
+
+ <script type="text/javascript"> 
+    dragElement(document.getElementById("map")); //Перемещение "как по карте". Украдено из интернета и работает отвратительно, надо чинить.
+    
+
+    function dragElement(el) {
+        var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+        // if (document.getElementById(el.id + "header")) {
+        //     document.getElementById(el.id + "header").onmousedown = dragMouseDown;
+        // } else {
+            el.onmousedown = dragMouseDown;
+        // }
+
+        function dragMouseDown(e) {
+            // e = e || window.event;
+            e.preventDefault();
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            document.onmouseup = closeDragElement;
+            document.onmousemove = elementDrag;
+        }
+
+        function elementDrag(e) {
+            // e = e || window.event;
+            e.preventDefault();
+
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            el.style.top = (el.offsetTop - pos2) + "px";
+            el.style.left = (el.offsetLeft - pos1) + "px";
+        }
+
+        function closeDragElement() {
+            document.onmouseup = null;
+            document.onmousemove = null;
+        }
+    }
+
+
+
+  </script> 
+</html>
