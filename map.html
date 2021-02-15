@@ -1,94 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
   <link href="style/stylesheet.css" rel="stylesheet">
   <title>Зоопарк</title>
-  <style>
-    body {
-        overflow: hidden;
-    }
-    #map {
-        z-index: 9;
-        overflow: hidden;
-        position: relative;
-        /*height: 100%;*/
-        width: 1000000%; /* Просто очень большое число, иначе картинки начинают обрезаться при увеличении. Наверняка есть способ адекватнее */
-    }
-    .mapel {
-        white-space: nowrap; /* Чтобы картинки не переносились */
-        position: relative;
-        /*height: 100%;*/
-        display: flex; /* Чтобы картинки не переносились */
-
-    }
-    .segment {
-        float: left;
-        /*display: flex;*/
-    }
-  </style>
 </head>
-
 <body>
-  <p>test</p>
     <div id="map">
-        <span class="mapel">
-            <img class="segment" src="images/segment_0.svg">
-            <img class="segment" src="images/segment_1.svg">
-            <img class="segment" src="images/segment_2.svg">
-        </span>
-        <span class="mapel">
-            <img class="segment" src="images/segment_3.svg">
-            <img class="segment" src="images/segment_4.svg">
-            <img class="segment" src="images/segment_5.svg">
-        </span>
-        <span class="mapel">
-            <img class="segment" src="images/segment_6.svg">
-            <img class="segment" src="images/segment_7.svg">
-            <img class="segment" src="images/segment_8.svg">
-        </span>
+        <div class="row">
+            <div class="column">
+                <img src="images/segment_0.svg">
+                <img src="images/segment_3.svg">
+                <img src="images/segment_6.svg">
+            </div>
+            <div class="column">
+                <img src="images/segment_1.svg">
+                <img src="images/segment_4.svg">
+                <img src="images/segment_7.svg">
+            </div>
+            <div class="column">
+                <img src="images/segment_2.svg">
+                <img src="images/segment_5.svg">
+                <img src="images/segment_8.svg">
+            </div>
+        </div>
     </div>
 </body>
-
- <script type="text/javascript">
-    dragElement(document.getElementById("map")); //Перемещение "как по карте". Украдено из интернета и работает отвратительно, надо чинить.
-
-
-    function dragElement(el) {
-        var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-        // if (document.getElementById(el.id + "header")) {
-        //     document.getElementById(el.id + "header").onmousedown = dragMouseDown;
-        // } else {
-            el.onmousedown = dragMouseDown;
-        // }
-
-        function dragMouseDown(e) {
-            // e = e || window.event;
-            e.preventDefault();
-            pos3 = e.clientX;
-            pos4 = e.clientY;
-            document.onmouseup = closeDragElement;
-            document.onmousemove = elementDrag;
-        }
-
-        function elementDrag(e) {
-            // e = e || window.event;
-            e.preventDefault();
-
-            pos1 = pos3 - e.clientX;
-            pos2 = pos4 - e.clientY;
-            pos3 = e.clientX;
-            pos4 = e.clientY;
-            el.style.top = (el.offsetTop - pos2) + "px";
-            el.style.left = (el.offsetLeft - pos1) + "px";
-        }
-
-        function closeDragElement() {
-            document.onmouseup = null;
-            document.onmousemove = null;
-        }
-    }
-
-
-
-  </script>
+ <script type="text/javascript" src="js/main.js"></script>
 </html>
