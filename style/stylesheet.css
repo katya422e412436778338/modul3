@@ -24,13 +24,16 @@ img {
     z-index: 9;
     overflow: hidden;
     position: absolute;
-    width: 160vw;
-    left: -40vw;
-    top: -30vw;
+    left: -110vw;
+    top: -60vw;
+    width: 319vw;
+    transform: scale(0.6);
 }
 
 .column {
   float: left;
+  white-space: nowrap;
+  display: inline-block;
   width: 33.33%;
 }
 
