@@ -24,7 +24,7 @@ img {
     z-index: 9;
     overflow: hidden;
     position: absolute;
-    width: 200vw;
+    width: 160vw;
     left: -40vw;
     top: -30vw;
 }
@@ -37,7 +37,6 @@ img {
 .row::after {
   content: "";
   clear: both;
-  /*display: table;*/
 }
 
 .segment {
