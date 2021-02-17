@@ -8,6 +8,10 @@
     -o-user-select:none;
 }
 
+.button {
+  cursor: pointer;
+}
+
 p {
   font-family: 'IBM Plex Mono', monospace;
 }
@@ -16,18 +20,23 @@ body {
     overflow: hidden;
 }
 
-img {
+object {
+    z-index:0;
     display: flex;
+    position: relative;
+    /*pointer-events: all; */
 }
 
 #map {
-    z-index: 9;
-    overflow: hidden;
+  /*pointer-events: all; */
+  z-index: 2;
+  overflow: hidden;
     position: absolute;
     left: -110vw;
     top: -60vw;
     width: 319vw;
     transform: scale(0.6);
+    touch-action: none;
 }
 
 .column {
@@ -40,9 +49,4 @@ img {
 .row::after {
   content: "";
   clear: both;
-}
-
-.segment {
-    float: left;
-    display: flex;
 }
