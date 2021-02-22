@@ -38,8 +38,6 @@ function dragElement(el) {
 }
 
 function closeWindow(e) {
-    console.log(e);
-    var svgObject = document.getElementById('svg4');
     for (i = 0; i < e.length; i++)
-        svgObject.getElementById(e[i]).style.visibility = "hidden";
+        document.getElementById(e[i]).style.visibility = "hidden";
 }
