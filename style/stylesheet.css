@@ -24,17 +24,23 @@ svg {
     z-index: 9;
     overflow: hidden;
     position: absolute;
-    /*left: -110vw;*/
-    /*top: -60vw;*/
-    width: 319vw;
+    left: -125vw;
+    top: -80vw;
+    /*width: 319vw;*/
     transform: scale(0.5);
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
 .column {
-  float: left;
-  white-space: nowrap;
-  display: inline-block;
-  width: 33.33%;
+  flex: 33.33%;
 }
 
 .row::after {
