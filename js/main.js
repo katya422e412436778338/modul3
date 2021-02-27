@@ -9,8 +9,6 @@ function dragElement(el) {
     }
 
     function dragMouseDown(e) {
-        console.log(e);
-        console.log("drag");
         e = e || window.event;
         e.preventDefault();
         pos3 = e.clientX;
@@ -31,7 +29,6 @@ function dragElement(el) {
     }
 
     function closeDragElement() {
-        console.log("close");
         document.onmouseup = null;
         document.onmousemove = null;
     }
@@ -40,4 +37,11 @@ function dragElement(el) {
 function closeWindow(e) {
     for (i = 0; i < e.length; i++)
         document.getElementById(e[i]).style.visibility = "hidden";
+}
+
+function hover(e, d){
+    console.log(e,d);
+    document.getElementById(e).style.visibility = d == 1 ? "visible" : "hidden"; 
+    console.log(document.getElementById(e).style.visibility);
+    console.log(document.getElementById(e));
 }
