@@ -5,7 +5,7 @@ for j in {0..8}; do
 	RAND=$(cat /dev/urandom | tr -dc 'a-zA-Z' | fold -w 10 | head -n 1)
         str="-e 's/\bcls-0\b/$RAND/g'"
 
-	for i in {1..40}; do
+	for i in {1..60}; do
 		RAND=$(cat /dev/urandom | tr -dc 'a-zA-Z' | fold -w 10 | head -n 1)
 		str+=" -e 's/\bcls-$i\b/$RAND/g'"
 	done
