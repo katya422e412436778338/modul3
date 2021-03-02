@@ -28,7 +28,7 @@ svg {
     top: -60vw;
     width: 319vw;
     /*width: 100%;*/
-    transform: scale(0.9);
+    transform: scale(1.0);
 }
 
 * {
