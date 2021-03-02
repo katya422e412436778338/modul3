@@ -24,10 +24,11 @@ svg {
     z-index: 9;
     overflow: hidden;
     position: absolute;
-    left: -125vw;
-    top: -80vw;
-    /*width: 319vw;*/
-    /*transform: scale(0.5);*/
+    left: -110vw;
+    top: -60vw;
+    width: 319vw;
+    /*width: 100%;*/
+    transform: scale(0.5);
 }
 
 * {
