@@ -35,8 +35,7 @@ function dragElement(el) {
 }
 
 function closeWindow(e) {
-    for (i = 0; i < e.length; i++)
-        document.getElementById(e[i]).style.visibility = "hidden";
+    document.getElementById(e).style.visibility = "hidden";
 }
 
 function hover(e, d){
