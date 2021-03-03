@@ -38,6 +38,10 @@ function closeWindow(e) {
     document.getElementById(e).style.visibility = "hidden";
 }
 
+function show(e) {
+    document.getElementById(e).style.visibility = "visible";
+}
+
 function hover(e, d){
     console.log(e,d);
     document.getElementById(e).style.visibility = d == 1 ? "visible" : "hidden"; 

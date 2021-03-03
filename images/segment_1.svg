@@ -461,6 +461,7 @@
        id="animal1"
        onmouseover="hover('hover1', 1)"
        onmouseout="hover('hover1', 0)"
+       onclick="show('window2')"
        class="button">
       <path
          class="chaUrlMNOz"
@@ -716,7 +717,8 @@
   <g
      id="реплики">
     <g
-       id="window2">
+       id="window2"
+       style="visibility: hidden">
       <rect
          class="qXiQkrzsOK"
          x="587.83002"

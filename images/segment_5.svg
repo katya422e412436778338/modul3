@@ -33,12 +33,13 @@
    id="namedview879"
    showgrid="false"
    inkscape:zoom="2.467017"
-   inkscape:cx="645.61052"
-   inkscape:cy="207.60076"
+   inkscape:cx="775.32183"
+   inkscape:cy="401.76237"
    inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="svg877" />
+   inkscape:current-layer="svg877"
+   inkscape:document-rotation="0" />
 <style
    type="text/css"
    id="style2">
@@ -109,9 +110,9 @@
 	.st64{fill:none;stroke:#6000FF;stroke-miterlimit:10;}
 	.st65{fill:none;stroke:#F0ED00;stroke-miterlimit:10;}
 	.st66{fill:none;stroke:#F0ED00;stroke-width:2;stroke-miterlimit:10;}
-	.st67{display:none;}
 	.st68{display:inline;}
-	.st69{font-family:'IBMPlexMono-Text';}
+	<!-- .st69{font-family:'IBMPlexMono-Text';} -->
+    .st69{font-family:IBMPlexMono, IBM Plex Mono;}
 	.st70{font-size:20px;}
 	.st71{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
 	.st72{fill:#FFFFFF;stroke:#231F20;stroke-width:2;stroke-miterlimit:10;}
@@ -442,8 +443,10 @@
 		
 		<g
    id="animal13"
+   class="button"
    onmouseover="hover('hover13', 1)"
-   onmouseout="hover('hover13', 0)"><path
+   onmouseout="hover('hover13', 0)"
+   onclick="show('windowX')"><path
      class="st19"
      d="m 428.6,155.4 c -0.9,-1.8 -0.6,-6.4 0,-7.1 1.3,0.5 5.5,3.3 8,2.8 3.5,-0.7 5.4,-2.4 6.4,-4 5.3,-7.9 11.2,-20.6 14.1,-23.1 7.4,-6.4 12.8,-13.8 36.9,-15.6 1.2,-0.1 2.6,-0.4 4.3,-1 15.7,-5.7 19.9,-31.5 21.1,-39.1 0.1,-0.9 -0.2,-4.6 1,-9.3 0.8,-3.1 1.3,-5.2 2.8,-7 4,-4.9 13.8,-6.2 20.1,-1.5 1,0.7 4.4,3.6 5.3,8.5 1.1,6.9 -3.8,11.8 -4.3,12.3 -1.1,0.1 -2.7,0.3 -4.5,1 -5.8,2.2 -8.7,7 -9.8,8.8 -3.2,5.3 -2.6,9.1 -3.3,25.6 -0.6,15.2 -1.4,18.9 -2.3,22.1 -0.7,2.4 -2.2,7.8 -5.8,13.8 -9.4,15.8 -24.8,21.7 -27.4,22.6 -5.7,2.1 -15.6,5.7 -27.1,2 -7.3,-2.3 -12.2,-6.6 -14.8,-9.3 -1.2,0.8 -8.4,5.5 -15.1,2.8 -1.4,-0.6 -4.1,-2.4 -5.6,-5.3 z"
      id="path143" /><path
@@ -1984,8 +1987,10 @@
 		
 		<g
    id="animal12"
+   class="button"
    onmouseover="hover('hover12', 1)"
-   onmouseout="hover('hover12', 0)"><path
+   onmouseout="hover('hover12', 0)"
+   onclick="show('windowY')"><path
      class="st59"
      d="m 769,581.3 c -2.7,-2.4 -6.2,-3.1 -9.2,-3.3 -3.3,-4.5 -8.5,-10.5 -16.1,-16.1 -18.3,-13.6 -37.8,-15.2 -57.4,-16.7 -21.8,-1.6 -19,2.3 -60.1,3.6 0,0 -9.3,0.3 -35.1,5.1 -1.7,0.3 -5.6,1.1 -10.1,3.3 -3.1,1.5 -5.5,3.2 -7,4.4 -5,-1.6 -12.9,-4.9 -17.2,1 -5.2,7.1 -8.3,15.8 -19.3,27.1 -10.9,11.2 -21.3,7.5 -27.7,19.6 -3.1,5.8 -3.7,12.3 -3.9,14.3 -0.4,4.6 -0.9,9.8 1.8,15.5 2.4,5.1 8.1,12.2 15.4,12 2.3,-0.1 4.1,-0.8 5.3,-1.5 3.8,1.5 11,3.7 19.7,2.1 6.8,-1.3 17.5,-5.5 18.2,-11 0.1,-1 0.1,-3 1.3,-5.3 0.9,-1.6 2,-2.6 2.8,-3.3 9.6,0.5 12,7.1 13.9,15.1 0.6,2.5 0.1,5.3 0.6,8.6 0.9,6.3 0.3,-3.2 1,12.1 0.1,1.5 0.1,7.2 0.8,6.9 -0.1,1.4 -0.2,3.9 -0.3,7.1 -0.5,11.3 -0.7,12 0,13.1 4.6,7.1 17.5,4.1 22.6,3 6.5,-1.5 8.1,-3.7 8.6,-4.5 2,-3.1 1.1,-6.6 0.3,-11 -0.9,-4.9 -1.9,-11.8 -2.4,-20.5 17.6,0.1 32.1,0.6 44.4,1.4 0.9,-0.4 1.9,-0.6 3,-0.5 4.5,0.2 9,1.1 13.4,1.9 2.2,0.2 4.4,0.5 6.4,0.8 0.3,0 0.6,0.1 0.9,0.1 4.9,0.1 9.7,-0.5 14.6,-1.1 5.7,-0.8 11.5,-1.8 17.3,-0.8 4.9,0.1 9.7,2.4 11.2,7.5 0.1,0.5 0.2,0.9 0.3,1.4 0.1,0.3 0.2,0.6 0.4,1 0.7,2 0.9,4.2 0.9,6.3 0.1,2.4 -0.1,4.9 -0.8,7.2 0,0.1 0,0.1 -0.1,0.2 0.1,0.3 0.1,0.5 0.2,0.8 0.2,0.6 0.3,1.2 0.5,1.8 0.6,1.9 2,3.3 3.9,3.9 12.3,3.6 22.6,3 25.9,-2.1 0.6,-0.9 1,-2 1.2,-3.6 0.3,-16.1 -0.1,-33.1 -1.5,-50.9 -0.3,-4.3 -0.7,-8.6 -1.2,-12.8 2.6,-4.7 6.6,-13.2 7.1,-24.4 0.3,-6.2 -0.5,-11.5 -1.5,-15.5 4.2,1.5 5.8,3.6 6.5,5.1 3.4,6.8 -5.6,14.6 -3.3,27.1 0.4,2.1 0.9,4.7 1.8,4.8 3.4,0.1 13.5,-30.4 2,-40.3 z"
      id="path239" /><ellipse
@@ -2169,91 +2174,96 @@
 	<g
    class="st68"
    id="g849">
-		<rect
-   x="584.3"
-   y="25.3"
-   class="st52"
-   width="374.3"
-   height="100.2"
-   id="rect833" />
-		<text
-   transform="matrix(1 0 0 1 603.5873 57.6949)"
-   id="text841"><tspan
-     x="0"
-     y="0"
-     class="st69 st70"
-     id="tspan835">Привет, Друг!</tspan><tspan
-     x="0"
-     y="24"
-     class="st69 st70"
-     id="tspan837">Ты мне не поможешь собрать</tspan><tspan
-     x="0"
-     y="48"
-     class="st69 st70"
-     id="tspan839">моих проказников-утят?</tspan></text>
+		
+		
 		<g
    id="g847">
-			<line
-   class="st71"
-   x1="932.4"
-   y1="47.9"
-   x2="947.6"
-   y2="32.8"
-   id="line843" />
-			<line
-   class="st71"
-   x1="947.6"
-   y1="47.9"
-   x2="932.4"
-   y2="32.8"
-   id="line845" />
+			
+			<g
+   id="windowX"
+   style="visibility: hidden"><rect
+     x="584.29999"
+     y="25.299999"
+     class="st52"
+     width="374.29999"
+     height="100.2"
+     id="rect833" /><text
+     transform="translate(603.5873,57.6949)"
+     id="text841"><tspan
+       x="0"
+       y="0"
+       class="st69 st70"
+       id="tspan835">Привет, Друг!</tspan><tspan
+       x="0"
+       y="24"
+       class="st69 st70"
+       id="tspan837">Ты мне не поможешь собрать</tspan><tspan
+       x="0"
+       y="48"
+       class="st69 st70"
+       id="tspan839">моих проказников-утят?</tspan></text><line
+     class="st71"
+     x1="932.40002"
+     y1="47.900002"
+     x2="947.59998"
+     y2="32.799999"
+     id="line843" /><line
+     class="st71"
+     x1="947.59998"
+     y1="47.900002"
+     x2="932.40002"
+     y2="32.799999"
+     id="line845" /></g>
 		</g>
 	</g>
 	<g
    class="st68"
    id="g869">
-		<rect
-   x="553.5"
-   y="403.3"
-   class="st52"
-   width="416"
-   height="119.5"
-   id="rect851" />
-		<text
-   transform="matrix(1 0 0 1 572.8151 435.6387)"
-   id="text861"><tspan
-     x="0"
-     y="0"
-     class="st69 st70"
-     id="tspan853">Здравствуй.</tspan><tspan
-     x="0"
-     y="24"
-     class="st69 st70"
-     id="tspan855">Мы молодая семья </tspan><tspan
-     x="0"
-     y="48"
-     class="st69 st70"
-     id="tspan857">бегемотов-хамелеонов.И мы очень </tspan><tspan
-     x="0"
-     y="72"
-     class="st69 st70"
-     id="tspan859">голодны.</tspan></text>
+		
+		
 		<g
    id="g867">
-			<line
-   class="st71"
-   x1="946"
-   y1="427.5"
-   x2="961.2"
-   y2="412.3"
-   id="line863" />
-			<line
-   class="st71"
-   x1="961.2"
-   y1="427.5"
-   x2="946"
-   y2="412.3"
-   id="line865" />
+			
+			<g
+   id="windowY"
+   style="visibility: hidden"
+   onclick=""><rect
+     x="553.5"
+     y="403.29999"
+     class="st52"
+     width="416"
+     height="119.5"
+     id="rect851" /><text
+     transform="translate(572.8151,435.6387)"
+     id="text861"><tspan
+       x="0"
+       y="0"
+       class="st69 st70"
+       id="tspan853">Здравствуй.</tspan><tspan
+       x="0"
+       y="24"
+       class="st69 st70"
+       id="tspan855">Мы молодая семья </tspan><tspan
+       x="0"
+       y="48"
+       class="st69 st70"
+       id="tspan857">бегемотов-хамелеонов.И мы очень </tspan><tspan
+       x="0"
+       y="72"
+       class="st69 st70"
+       id="tspan859">голодны.</tspan></text><line
+     class="st71"
+     x1="946"
+     y1="427.5"
+     x2="961.20001"
+     y2="412.29999"
+     id="line863" /><line
+     class="st71"
+     x1="961.20001"
+     y1="427.5"
+     x2="946"
+     y2="412.29999"
+     id="line865" /></g>
 		</g>
 	</g>
 	<g
@@ -2269,4 +2279,20 @@
 <g
    id="БОРДЕРЫ">
 </g>
-</svg>
+<rect
+    class="button"
+   style="opacity:0"
+   id="rect468"
+   width="15.199951"
+   height="15.100002"
+   x="932.40002"
+   y="32.799999"
+   onclick="closeWindow('windowX')" /><rect
+   class="button"
+   style="opacity:0"
+   id="rect486"
+   width="15.200012"
+   height="15.200012"
+   x="946"
+   y="412.29999"
+   onclick="closeWindow('windowY')" /></svg>

@@ -468,6 +468,7 @@
        id="animal0"
        onmouseover="hover('hover0', 1)"
        onmouseout="hover('hover0', 0)"
+       onclick="show('window1')"
        class="button">
       <path
          class="cOYvMwtoiN"
@@ -816,7 +817,8 @@
     <g
        id="g376">
       <g
-         id="window1">
+         id="window1"
+         style="visibility: hidden;">
         <rect
            class="FJsmjCpUvm"
            x="236.52"
