@@ -43,8 +43,20 @@ function show(e) {
 }
 
 function hover(e, d){
-    console.log(e,d);
+    // console.log(e,d);
     document.getElementById(e).style.visibility = d == 1 ? "visible" : "hidden"; 
-    console.log(document.getElementById(e).style.visibility);
-    console.log(document.getElementById(e));
+    // console.log(document.getElementById(e).style.visibility);
+    // console.log(document.getElementById(e));
+}
+
+function hippo() { //Бегемот, показать конфеты и окрасить в другой цвет
+    show('windowY');
+    var bucket = document.getElementById('bucket');
+    bucket.classList.add('button');
+    bucket.onclick = ()=>{
+        show('candy');
+        show('color0');
+        show('color1');
+        closeWindow('color3');
+    }
 }
