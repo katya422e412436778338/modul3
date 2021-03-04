@@ -1,8 +1,11 @@
 var hippo_completed = false;
 var kapusta_completed = false;
+var pigs_completed = false;
+
 var chill_mouse_clicked = false;
 
 var kapusta_clicked = 0;
+var pigs_clicked = 0;
 
 dragElement(document.getElementById('map')); //Перемещение "как по карте". Украдено из интернета.
 
@@ -107,6 +110,25 @@ function mouse() {
             chill_mouse_clicked = true;
             unclickable('animal4');
             document.getElementById('cheese').classList.remove('vert-move');
+        }
+    }
+}
+
+function pigs() {
+    if (!pigs_completed) {
+        show('window2');
+        for (let i = 0; i <=4; ++i) {
+            let el = document.getElementById(`pig${i}`);
+            el.classList.add('button');
+            el.onclick = ()=>{
+                pigs_clicked++;
+                closeWindow(`pig${i}`);
+                if (pigs_clicked == 5) {
+                    pigs_completed = true;
+                    closeWindow('window2');
+                    unclickable('animal1');
+                }
+            }
         }
     }
 }
