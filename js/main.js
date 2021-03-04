@@ -1,3 +1,9 @@
+var hippo_completed = false;
+var kapusta_completed = false;
+var chill_mouse_clicked = false;
+
+var kapusta_clicked = 0;
+
 dragElement(document.getElementById('map')); //Перемещение "как по карте". Украдено из интернета.
 
 function dragElement(el) {
@@ -50,13 +56,59 @@ function hover(e, d){
 }
 
 function hippo() { //Бегемот, показать конфеты и окрасить в другой цвет
-    show('windowY');
-    var bucket = document.getElementById('bucket');
-    bucket.classList.add('button');
-    bucket.onclick = ()=>{
-        show('candy');
-        show('color0');
-        show('color1');
-        closeWindow('color3');
+    console.log(hippo_completed);
+    if (!hippo_completed) {
+        show('windowY');
+        var bucket = document.getElementById('bucket');
+        bucket.classList.add('button');
+        bucket.onclick = ()=>{
+            show('candy');
+            show('color0');
+            show('color1');
+            // closeWindow('color3');
+            closeWindow('windowY');
+            hippo_completed = true;
+            bucket.onclick = null;
+            bucket.classList.remove('button');
+            unclickable('animal12');
+        }
+    }
+}
+
+
+
+function kapusta() {
+    if (!kapusta_completed) {
+        show('window1');
+        for (let i = 1; i <=5; ++i) {
+            let el = document.getElementById(`kap${i}`);
+            el.classList.add('button');
+            el.onclick = ()=>{
+                kapusta_clicked++;
+                closeWindow(`kap${i}`);
+                if (kapusta_clicked == 5) {
+                    kapusta_completed = true;
+                    closeWindow('window1');
+                    unclickable('animal0');
+                }
+            }
+        }
+    }
+}
+
+function unclickable(id) {
+    let e = document.getElementById(id);
+    e.onmouseover = null;
+    e.classList.remove('button');
+}
+
+function mouse() {
+    if (!chill_mouse_clicked) {
+        show('window8');
+        document.getElementById('rect330').onclick = ()=>{
+            closeWindow('window8');
+            chill_mouse_clicked = true;
+            unclickable('animal4');
+        }
     }
 }
