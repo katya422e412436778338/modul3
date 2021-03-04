@@ -49,14 +49,10 @@ function show(e) {
 }
 
 function hover(e, d){
-    // console.log(e,d);
     document.getElementById(e).style.visibility = d == 1 ? "visible" : "hidden"; 
-    // console.log(document.getElementById(e).style.visibility);
-    // console.log(document.getElementById(e));
 }
 
 function hippo() { //Бегемот, показать конфеты и окрасить в другой цвет
-    console.log(hippo_completed);
     if (!hippo_completed) {
         show('windowY');
         var bucket = document.getElementById('bucket');
@@ -105,10 +101,15 @@ function unclickable(id) {
 function mouse() {
     if (!chill_mouse_clicked) {
         show('window8');
+        document.getElementById('cheese').classList.add('vert-move');
         document.getElementById('rect330').onclick = ()=>{
             closeWindow('window8');
             chill_mouse_clicked = true;
             unclickable('animal4');
+            document.getElementById('cheese').classList.remove('vert-move');
         }
     }
+}
+
+function lab() {
 }
