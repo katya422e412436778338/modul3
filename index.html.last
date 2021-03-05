@@ -1,6 +1,8 @@
     </div>
     </div>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/zoom.js"></script>
+    <script type="text/javascript" src="js/editor.js"></script>
 </body>
- <script type="text/javascript" src="js/main.js"></script>
- <script type="text/javascript" src="js/zoom.js"></script>
+ 
 </html>

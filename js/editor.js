@@ -1,0 +1,4 @@
+ 
+heads() {
+    console.log('heads');
+}
