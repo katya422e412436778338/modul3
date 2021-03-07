@@ -2213,7 +2213,7 @@
 </g>
 <g
    id="lab"
-   style="display:inline">
+   style="display:inline; visibility: hidden;">
 	<rect
    x="385.29999"
    y="207.2"

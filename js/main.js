@@ -1,11 +1,13 @@
 var hippo_completed = false;
 var kapusta_completed = false;
 var pigs_completed = false;
+var ducks_completed = false;
 
 var chill_mouse_clicked = false;
 
 var kapusta_clicked = 0;
 var pigs_clicked = 0;
+var ducks_clicked = 0;
 
 dragElement(document.getElementById('map')); //Перемещение "как по карте". Украдено из интернета.
 
@@ -133,5 +135,21 @@ function pigs() {
     }
 }
 
-function lab() {
+function duck() {
+    if (!ducks_completed) {
+        show('windowX');
+        for (let i = 0; i < 3; ++i) {
+            let duck = document.getElementById(`duck${i}`);
+            duck.classList.add('button');
+            duck.onclick = () => {
+                duck.classList.add(`duck${i}-home`);
+                ducks_clicked++;
+                if (ducks_clicked == 3) {
+                    ducks_completed = true;
+                    closeWindow('windowX');
+                    unclickable('animal13');
+                }
+            }
+        }
+    }
 }

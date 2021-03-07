@@ -71,3 +71,18 @@ svg {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
 }
+
+.duck0-home {
+  transition-duration: 2s;
+  transform: translate(-190px, -180px)
+}
+
+.duck1-home {
+  transition-duration: 2s;
+  transform: translate(-180px, -129px);
+}
+
+.duck2-home {
+  transition-duration: 2s;
+  transform: translate(-320px, -240px)
+}
