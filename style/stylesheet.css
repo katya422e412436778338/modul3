@@ -72,17 +72,35 @@ svg {
     100% { transform: translateY(-10px); }
 }
 
+
 .duck0-home {
-  transition-duration: 2s;
-  transform: translate(-190px, -180px)
+  animation: duck_a 2s forwards;
+}
+
+@keyframes duck_a {
+  50% { transform: translate(150px, -200px) }
+  100% { transform: translate(-190px, -180px) }
 }
 
 .duck1-home {
-  transition-duration: 2s;
-  transform: translate(-180px, -129px);
+  animation: duck_b 2s forwards;
+}
+
+@keyframes duck_b {
+  50% { transform: translate(-100px, 120px) }
+  100% { transform: translate(-180px, -129px) }
 }
 
 .duck2-home {
-  transition-duration: 2s;
-  transform: translate(-320px, -240px)
+  animation: duck_c 2s forwards;
 }
+
+@keyframes duck_c {
+  50% { transform: translate(0px, 150px) }
+  100% { transform: translate(-320px, -240px) }
+}
+
+.anim {
+  transition-duration: 5s;
+}
+
