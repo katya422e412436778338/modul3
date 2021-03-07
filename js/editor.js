@@ -1,5 +1,5 @@
 
-var current = null;
+var currentMenu = null;
 
 var state = {
     'head': null,
@@ -7,10 +7,14 @@ var state = {
     'body': null
 };
 
+var oldState = Object.assign({}, state);
+
+var emptyState = Object.assign({}, state);
+
 function toggleSubmenu(menu, flag=1) {
-    if (current) {
-        let temp = current;
-        current = null;
+    if (currentMenu) {
+        let temp = currentMenu;
+        currentMenu = null;
         toggleSubmenu(temp, 0);
     }
 
@@ -19,17 +23,23 @@ function toggleSubmenu(menu, flag=1) {
     let type = menu == 'bodies' ? 'body' : menu.slice(0, -1);
     
     
-    document.getElementById('snone').style.visibility = menu == 'heads' ? "hidden" : visibility;
+    document.getElementById('snone').style.visibility = menu != 'legs' ? "hidden" : visibility;
     
     document.getElementById(`${menu}_selected`).style.visibility = visibility;
     
-    size = menu != 'legs' ? 5 : 4;
-
+    if (menu == 'heads') {
+        size = 5;
+    } else if (menu == 'bodies') {
+        size = 6;
+    } else {
+        size = 4;
+    }
+ 
     for (let i = 0; i < size; ++i) {
         document.getElementById(`s${type}${i}`).style.visibility = visibility;
     }
     
-    current = menu;
+    currentMenu = menu;
 }
 
 function changeState(id) {
@@ -42,7 +52,7 @@ function changeState(id) {
 
         wanted_state[type] = element;
     } else {
-        if (current == 'legs') {
+        if (currentMenu == 'legs') {
             wanted_state['leg'] = null;
         } else {
             wanted_state['body'] = null;
@@ -62,4 +72,22 @@ function render(wanted_state) {
             document.getElementById(wanted_state[key]).style.visibility = "visible";
         state[key] = wanted_state[key];
     }
+}
+
+function closeLab() {
+    if (currentMenu) {
+        toggleSubmenu(currentMenu, 0);
+    }
+    oldState = Object.assign({}, state);
+    render(emptyState);
+    closeWindow('lab');
+}
+
+function showLab() {
+    show('lab');
+    if (currentMenu) {
+        toggleSubmenu(currentMenu, 1);
+    }
+    state = oldState;
+    render(state);
 }
