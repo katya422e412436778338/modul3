@@ -93,10 +93,10 @@ function showLab() {
 }
 
 function randomAnimal() {
-  let state = {
+  const state = {
     'head': `head${Math.trunc(rand(0, 4))}`,
     'leg': `leg${Math.trunc(rand(0, 3))}`,
-    'body': `body${Math.trunc(rand(0, 5))}`
+    'body': `body${Math.trunc(rand(0, 5))}`,
   };
   render(state);
 }
