@@ -30,12 +30,12 @@
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
    inkscape:window-width="1600"
-   inkscape:window-height="1094"
+   inkscape:window-height="1095"
    id="namedview1257"
    showgrid="false"
    inkscape:zoom="9.8680683"
    inkscape:cx="422.60929"
-   inkscape:cy="256.52602"
+   inkscape:cy="532.16254"
    inkscape:window-x="0"
    inkscape:window-y="25"
    inkscape:window-maximized="1"
@@ -2377,11 +2377,11 @@
 			
 				<image
    xlink:href="images/cube.png"
-   style="overflow:visible"
-   width="511"
-   height="511"
+   transform="matrix(0.05132617,0,0,0.05132617,399.1577,523.9722)"
    id="Layer_0_3_"
-   transform="matrix(0.05132617,0,0,0.05132617,399.1577,523.9722)">
+   height="511"
+   width="511"
+   style="overflow:visible">
 			</image>
 		</g>
 		<g
@@ -3118,4 +3118,12 @@
    x="396.70001"
    y="219.60001"
    onclick="closeLab()"
+   class="button" /><rect
+   style="opacity:0;fill:#000000"
+   id="rand_gen"
+   width="26.227673"
+   height="26.227673"
+   x="399.15771"
+   y="523.97223"
+   onclick="randomAnimal()"
    class="button" /></svg>

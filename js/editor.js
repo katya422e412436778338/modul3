@@ -91,3 +91,12 @@ function showLab() {
   state = oldState;
   render(state);
 }
+
+function randomAnimal() {
+  let state = {
+    'head': `head${Math.trunc(rand(0, 4))}`,
+    'leg': `leg${Math.trunc(rand(0, 3))}`,
+    'body': `body${Math.trunc(rand(0, 5))}`
+  };
+  render(state);
+}
