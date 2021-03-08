@@ -47,7 +47,7 @@
   <defs
      id="defs4">
     <style
-       id="style2">.lbsNakiSmu{fill:#f7efe2;}.gIEbfogOxP,.tNcdHjJNpN,.VydtEQlIIN,.KsPrrJaFPK,.boDeCCdpev{fill:none;}.gIEbfogOxP{stroke:#ff81e7;}.bFXTsbZXNq,.vxeTrrLYVH,.gIEbfogOxP,.tNcdHjJNpN,.yQLBBpkNNY,.VydtEQlIIN,.KsPrrJaFPK,.boDeCCdpev{stroke-miterlimit:10;}.gIEbfogOxP,.tNcdHjJNpN,.KsPrrJaFPK{stroke-width:16px;}.gIEbfogOxP,.KsPrrJaFPK{stroke-dasharray:30.47 20.31;}.tNcdHjJNpN{stroke:#00ffa9;stroke-dasharray:29.94 19.96;}.KsPrrJaFPK{stroke:#ff0020;}.zscmNELqeO{fill:#fff3ae;}.nmNkVTSlza{fill:#d8e5a5;}.mdCWnEKJqh{fill:#ff81e7;}.ILpxEQHfDk{fill:#a8e0a1;}.boDeCCdpev{stroke:#fff;stroke-width:5px;}.mkSabwhUYs,.yQLBBpkNNY{fill:#fff;}.QrmUzzfYVV{fill:#0097dd;}.bFXTsbZXNq,.yQLBBpkNNY,.VydtEQlIIN{stroke:#000;}.YtmkIFLfvP{fill:#ff0020;}.vxeTrrLYVH{fill:#ff00bd;stroke:#ff00bd;stroke-width:0.5px;}.IzNlJSHZRp{fill:#00ffa9;}.UXvqFjYhtV{fill:#754c24;}.NRytZGpiti{fill:#ffd400;}.wzgzrFgJOX{fill:#6000ff;}.UqjnErwBMy{fill:#f9c6ca;}.lhzfAbhCXg{fill:#f6a9cb;}.MtpFsssJEp{fill:#fdff00;}.UnUIZAucdK{fill:#a3877f;}.EKyINXJjld{fill:#ff6b5c;}.DdENBeVyfg{fill:#92918e;}.ugnMBraYQr{fill:#b9fcf7;}.YfQDPClLKj{fill:#5fe;}.lyOwGJnReh{fill:#ff1e00;}.MNnTGPmulL{fill:#839e9e;}.DKFsIOPSqh{font-size:19.07px;font-family:IBMPlexMono, IBM Plex Mono;letter-spacing:0em;}.yQLBBpkNNY,.VydtEQlIIN{stroke-width:2px;}.mWtfkvKgBw{font-size:20px;font-family:IBMPlexMono-Text, IBM Plex Mono;letter-spacing:0em;}</style>
+       id="style2">.lbsNakiSmu{fill:#f7efe2;}.gIEbfogOxP,.tNcdHjJNpN,.VydtEQlIIN,.KsPrrJaFPK,.boDeCCdpev{fill:none;}.gIEbfogOxP{stroke:#ff81e7;}.bFXTsbZXNq,.vxeTrrLYVH,.gIEbfogOxP,.tNcdHjJNpN,.yQLBBpkNNY,.VydtEQlIIN,.KsPrrJaFPK,.boDeCCdpev{stroke-miterlimit:10;}.gIEbfogOxP,.tNcdHjJNpN,.KsPrrJaFPK{stroke-width:16px;}.gIEbfogOxP,.KsPrrJaFPK{stroke-dasharray:30.47 20.31;}.tNcdHjJNpN{stroke:#00ffa9;stroke-dasharray:29.94 19.96;}.KsPrrJaFPK{stroke:#ff0020;}.zscmNELqeO{fill:#fff3ae;}.nmNkVTSlza{fill:#d8e5a5;}.mdCWnEKJqh{fill:#ff81e7;}.ILpxEQHfDk{fill:#a8e0a1;}.boDeCCdpev{stroke-width:5px;}.mkSabwhUYs,.yQLBBpkNNY{fill:#fff;}.QrmUzzfYVV{fill:#0097dd;}.bFXTsbZXNq,.yQLBBpkNNY,.VydtEQlIIN{stroke:#000;}.YtmkIFLfvP{fill:#ff0020;}.vxeTrrLYVH{fill:#ff00bd;stroke:#ff00bd;stroke-width:0.5px;}.IzNlJSHZRp{fill:#00ffa9;}.UXvqFjYhtV{fill:#754c24;}.NRytZGpiti{fill:#ffd400;}.wzgzrFgJOX{fill:#6000ff;}.UqjnErwBMy{fill:#f9c6ca;}.lhzfAbhCXg{fill:#f6a9cb;}.MtpFsssJEp{fill:#fdff00;}.UnUIZAucdK{fill:#a3877f;}.EKyINXJjld{fill:#ff6b5c;}.DdENBeVyfg{fill:#92918e;}.ugnMBraYQr{fill:#b9fcf7;}.YfQDPClLKj{fill:#5fe;}.lyOwGJnReh{fill:#ff1e00;}.MNnTGPmulL{fill:#839e9e;}.DKFsIOPSqh{font-size:19.07px;font-family:IBMPlexMono, IBM Plex Mono;letter-spacing:0em;}.yQLBBpkNNY,.VydtEQlIIN{stroke-width:2px;}.mWtfkvKgBw{font-size:20px;font-family:IBMPlexMono-Text, IBM Plex Mono;letter-spacing:0em;}</style>
   </defs>
   <g
      id="фон">
@@ -111,6 +111,7 @@
      data-name="выделение правильный цвет"
      style="visibility: hidden">
     <ellipse
+       stroke="url(#hover0grad)"
        class="boDeCCdpev"
        cx="376.73999"
        cy="347.51999"

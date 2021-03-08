@@ -104,3 +104,22 @@ svg {
   transition-duration: 5s;
 }
 
+
+.grad {
+    background: linear-gradient(270deg, #f900ff, #ffffff);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 0s ease infinite;
+    animation: AnimationName 0s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
