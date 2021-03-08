@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  $("#map").draggable({
+    // containment: [10000, 10000, 10000, 10000]
+  });
   new ScrollZoom($('#map'), 5, 0.25);
 });
 

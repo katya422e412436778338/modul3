@@ -41,7 +41,7 @@ svg {
 
 /* Create three equal columns that sits next to each other */
 .column {
-  flex: 33.33%;
+  flex: 33.3333%;
 }
 
 .row::after {
@@ -104,22 +104,3 @@ svg {
   transition-duration: 5s;
 }
 
-
-.grad {
-    background: linear-gradient(270deg, #f900ff, #ffffff);
-    background-size: 400% 400%;
-
-    -webkit-animation: AnimationName 0s ease infinite;
-    animation: AnimationName 0s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 51%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 51%}
-    100%{background-position:0% 50%}
-}
