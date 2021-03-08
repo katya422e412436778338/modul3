@@ -175,7 +175,7 @@ function food() {
           }
         };
       }
-      insect.style.transform = `translate(${rand(-500, 500)}px, ${rand(-500, 500)}px)`;
+      insect.style.transform = `translate(${rand(-250, 250)}px, ${rand(-250, 250)}px)`;
     }
     insectHandlersSet = true;
   }
