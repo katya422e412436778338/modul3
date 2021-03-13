@@ -112,3 +112,12 @@ svg {
   0% {opacity: 0;}
   100% {opacity: 0.75;}
 }
+
+.clouds-move {
+  animation: clouds 2s infinite alternate;
+}
+
+@keyframes clouds {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-10px); }
+}
