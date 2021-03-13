@@ -104,3 +104,11 @@ svg {
   transition-duration: 5s;
 }
 
+.highlight-anim {
+  animation: highlight 2s infinite alternate;
+}
+
+@keyframes highlight {
+  0% {opacity: 0;}
+  100% {opacity: 0.75;}
+}

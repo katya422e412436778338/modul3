@@ -12,6 +12,8 @@ let pigsClicked = 0;
 let ducksClicked = 0;
 let insectsClicked = 0;
 
+let highlightingStopped = false;
+
 function closeWindow(e) {
   document.getElementById(e).style.visibility = 'hidden';
 }
@@ -128,9 +130,7 @@ function food() {
       if (!insectHandlersSet) {
         insect.classList.add('anim', 'button');
         insect.onclick = () => {
-          console.log(`insect${i} clicked`);
           insectsClicked++;
-          console.log(insectsClicked);
           insect.remove();
           if (insectsClicked == 9) {
             foodCompleted = true;
@@ -147,4 +147,13 @@ function food() {
 
 function rand(min, max) {
   return Math.random() * (max - min) + min;
+}
+
+function info() {
+  show('window4');
+  if (!highlightingStopped) {
+    document.getElementById('highlight').classList.remove('highlight-anim');
+    document.getElementById('highlight_2').classList.remove('highlight-anim');
+    highlightingStopped = true;
+  }
 }

@@ -11,7 +11,7 @@
    version="1.1"
    id="svg514"
    sodipodi:docname="segment_7.svg"
-   inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
   <metadata
      id="metadata518">
     <rdf:RDF>
@@ -32,16 +32,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1600"
-     inkscape:window-height="1200"
+     inkscape:window-width="1366"
+     inkscape:window-height="738"
      id="namedview516"
      showgrid="false"
-     inkscape:zoom="15.989967"
-     inkscape:cx="605.99317"
-     inkscape:cy="420.89749"
+     inkscape:zoom="0.92440918"
+     inkscape:cx="374.30902"
+     inkscape:cy="501.47422"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg514"
      inkscape:document-rotation="0" />
   <defs
@@ -116,7 +116,7 @@
      data-name="выделение правильный цвет"
      style="visibility:hidden">
     <ellipse
-      stroke="url(#hover0grad)"
+       stroke="url(#hover0grad)"
        class="NuhImFmUCb"
        cx="780.96997"
        cy="346"
@@ -1428,4 +1428,343 @@
        onclick="closeWindow('window7')"
        class="button" />
   </g>
+  <style
+     type="text/css"
+     id="style281">
+	.NnzeTDPpXC{fill:#FFFFFF;}
+	.wvwBTQqkLx{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
+</style>
+  <g
+     id="highlight_2"
+     style="display: inline;opacity: 0;"
+     class="highlight-anim button"
+     transform="translate(-743.83,132.97)">
+	<g
+   id="g1449_1_"
+   onclick="show('window4')">
+		<rect
+   id="rect2406_1_"
+   x="446.89999"
+   y="409.70001"
+   class="NnzeTDPpXC"
+   width="470.60001"
+   height="92.099998" />
+
+		<polygon
+   id="polygon2408_1_"
+   class="NnzeTDPpXC"
+   points="913.4,356.3 927.6,397.4 435.8,397.4 450.9,356.3 " />
+
+		<rect
+   id="rect2410_1_"
+   x="432.70001"
+   y="397.39999"
+   class="NnzeTDPpXC"
+   width="499.79999"
+   height="12.3" />
+
+		<rect
+   id="rect2412_1_"
+   x="570.59998"
+   y="377.60001"
+   class="NnzeTDPpXC"
+   width="223.8"
+   height="124.2" />
+
+		<rect
+   id="rect2414_1_"
+   x="450.89999"
+   y="348.60001"
+   class="NnzeTDPpXC"
+   width="462.60001"
+   height="7.6999998" />
+
+		<polygon
+   id="polygon2416_1_"
+   class="NnzeTDPpXC"
+   points="799.7,367 608.7,367 565.2,367 578.2,323.9 786.4,323.9 " />
+
+		<rect
+   id="rect2418_1_"
+   x="562"
+   y="367"
+   class="NnzeTDPpXC"
+   width="240.7"
+   height="10.6" />
+
+		<rect
+   id="rect2420_1_"
+   x="578.20001"
+   y="314.89999"
+   class="NnzeTDPpXC"
+   width="208.2"
+   height="9" />
+
+		<polygon
+   id="polygon2422_1_"
+   class="NnzeTDPpXC"
+   points="683.9,291.2 764.6,377.5 598.1,377.6 " />
+
+		<polygon
+   id="polygon2424_1_"
+   class="NnzeTDPpXC"
+   points="684.2,304.1 741.5,365.3 627.2,365 " />
+
+		<polygon
+   id="polygon2426_1_"
+   class="NnzeTDPpXC"
+   points="590.9,385.6 602.4,385.6 602.4,419.2 590.9,419.2 579.3,419.2 579.3,385.6 " />
+
+		<polyline
+   id="polyline2428_1_"
+   class="NnzeTDPpXC"
+   points="590.9,402.4 590.9,385.6 590.9,419.2 602.4,419.2 602.4,408.2 579.3,408.2     579.3,395.9 602.4,396.1   " />
+
+		<polygon
+   id="polygon2430_1_"
+   class="NnzeTDPpXC"
+   points="625.8,385.6 637.4,385.6 637.4,419.2 625.8,419.2 614.3,419.2 614.3,385.6 " />
+
+		<polyline
+   id="polyline2432_1_"
+   class="NnzeTDPpXC"
+   points="625.8,402.4 625.8,385.6 625.8,419.2 637.4,419.2 637.4,408.2 614.3,408.2     614.3,395.9 637.4,396.1   " />
+
+		<polygon
+   id="polygon2434_1_"
+   class="NnzeTDPpXC"
+   points="652.1,419.2 652.1,385.6 663.7,385.6 675.2,385.6 675.2,419.2 663.7,419.2 " />
+
+		<polyline
+   id="polyline2436_1_"
+   class="NnzeTDPpXC"
+   points="663.7,402.4 663.7,385.6 663.7,419.2 675.2,419.2 675.2,408.2 652.1,408.2     652.1,395.9 675.2,396.1   " />
+
+		<polygon
+   id="polygon2438_1_"
+   class="NnzeTDPpXC"
+   points="701.3,385.6 712.9,385.6 712.9,419.2 701.3,419.2 689.8,419.2 689.8,385.6 " />
+
+		<polyline
+   id="polyline2440_1_"
+   class="NnzeTDPpXC"
+   points="701.3,402.4 701.3,385.6 701.3,419.2 712.9,419.2 712.9,408.2 689.8,408.2     689.8,395.9 712.9,396.1   " />
+
+		<polygon
+   id="polygon2442_1_"
+   class="NnzeTDPpXC"
+   points="738.7,385.6 750.2,385.6 750.2,419.2 738.7,419.2 727.1,419.2 727.1,385.6 " />
+
+		<polyline
+   id="polyline2444_1_"
+   class="NnzeTDPpXC"
+   points="738.7,402.4 738.7,385.6 738.7,419.2 750.2,419.2 750.2,408.2 727.1,408.2     727.1,395.9 750.2,396.1   " />
+
+		<polygon
+   id="polygon2446_1_"
+   class="NnzeTDPpXC"
+   points="727.1,470.6 727.1,437.1 738.7,437.1 750.2,437.1 750.2,470.6 738.7,470.6 " />
+
+		<polyline
+   id="polyline2448_1_"
+   class="NnzeTDPpXC"
+   points="738.7,453.9 738.7,437.1 738.7,470.6 750.2,470.6 750.2,459.6 727.1,459.6     727.1,447.3 750.2,447.5   " />
+
+		<polygon
+   id="polygon2450_1_"
+   class="NnzeTDPpXC"
+   points="590.9,437.1 602.4,437.1 602.4,470.6 590.9,470.6 579.3,470.6 579.3,437.1 " />
+
+		<polyline
+   id="polyline2452_1_"
+   class="NnzeTDPpXC"
+   points="590.9,453.9 590.9,437.1 590.9,470.6 602.4,470.6 602.4,459.6 579.3,459.6     579.3,447.3 602.4,447.5   " />
+
+		<polygon
+   id="polygon2454_1_"
+   class="NnzeTDPpXC"
+   points="625.8,437.1 637.4,437.1 637.4,470.6 625.8,470.6 614.3,470.6 614.3,437.1 " />
+
+		<polyline
+   id="polyline2456_1_"
+   class="NnzeTDPpXC"
+   points="625.8,453.9 625.8,437.1 625.8,470.6 637.4,470.6 637.4,459.6 614.3,459.6     614.3,447.3 637.4,447.5   " />
+
+		<polygon
+   id="polygon2458_1_"
+   class="NnzeTDPpXC"
+   points="473.6,414.4 484.4,414.4 484.4,445.9 473.6,445.9 462.8,445.9 462.8,414.4 " />
+
+		<polyline
+   id="polyline2460_1_"
+   class="NnzeTDPpXC"
+   points="473.6,430.1 473.6,414.4 473.6,445.9 484.4,445.9 484.4,435.5 462.8,435.5     462.8,424 484.4,424.2   " />
+
+		<polygon
+   id="polygon2462_1_"
+   class="NnzeTDPpXC"
+   points="506.4,414.4 517.2,414.4 517.2,445.9 506.4,445.9 495.6,445.9 495.6,414.4 " />
+
+		<polyline
+   id="polyline2464_1_"
+   class="NnzeTDPpXC"
+   points="506.4,430.1 506.4,414.4 506.4,445.9 517.2,445.9 517.2,435.5 495.6,435.5     495.6,424 517.2,424.2   " />
+
+		<polygon
+   id="polygon2466_1_"
+   class="NnzeTDPpXC"
+   points="539.4,414.4 550.2,414.4 550.2,445.9 539.4,445.9 528.6,445.9 528.6,414.4 " />
+
+		<polyline
+   id="polyline2468_1_"
+   class="NnzeTDPpXC"
+   points="539.4,430.1 539.4,414.4 539.4,445.9 550.2,445.9 550.2,435.5 528.6,435.5     528.6,424 550.2,424.2   " />
+
+		<polygon
+   id="polygon2470_1_"
+   class="NnzeTDPpXC"
+   points="484.3,485.2 473.5,485.2 462.7,485.2 462.7,453.7 473.5,453.7 484.3,453.7 " />
+
+	</g>
+
+	<polygon
+   id="polygon2474_1_"
+   class="NnzeTDPpXC"
+   points="506.3,453.7 517.1,453.7 517.1,485.2 506.3,485.2 495.5,485.2 495.5,453.7 " />
+
+	<polyline
+   id="polyline2476_1_"
+   class="NnzeTDPpXC"
+   points="506.3,469.5 506.3,453.7 506.3,485.2 517.1,485.2 517.1,474.8 495.5,474.8    495.5,463.4 517.1,463.5  " />
+
+	<polygon
+   id="polygon2478_1_"
+   class="NnzeTDPpXC"
+   points="539.3,453.7 550.1,453.7 550.1,485.2 539.3,485.2 528.5,485.2 528.5,453.7 " />
+
+	<polyline
+   id="polyline2480_1_"
+   class="NnzeTDPpXC"
+   points="539.3,469.5 539.3,453.7 539.3,485.2 550.1,485.2 550.1,474.8 528.5,474.8    528.5,463.4 550.1,463.5  " />
+
+	<rect
+   id="rect2482_1_"
+   x="631.59998"
+   y="497.70001"
+   class="NnzeTDPpXC"
+   width="100.5"
+   height="7.6999998" />
+
+	<rect
+   id="rect2484_1_"
+   x="637.40002"
+   y="490"
+   class="NnzeTDPpXC"
+   width="90"
+   height="7.8000002" />
+
+	<rect
+   id="rect2486_1_"
+   x="642.90002"
+   y="483.29999"
+   class="NnzeTDPpXC"
+   width="79"
+   height="6.6999998" />
+
+	<rect
+   id="rect2488_1_"
+   x="642.90002"
+   y="427.20001"
+   class="NnzeTDPpXC"
+   width="78.300003"
+   height="13.1" />
+
+	<rect
+   id="rect2490_1_"
+   x="646.79999"
+   y="402.39999"
+   class="NnzeTDPpXC"
+   width="70.199997"
+   height="18.700001" />
+
+	<rect
+   id="rect2492_1_"
+   x="645.79999"
+   y="440.29999"
+   class="NnzeTDPpXC"
+   width="9.1999998"
+   height="42.900002" />
+
+	<rect
+   id="rect2494_1_"
+   x="655"
+   y="440.29999"
+   class="NnzeTDPpXC"
+   width="8.6999998"
+   height="42.900002" />
+
+	<rect
+   id="rect2496_1_"
+   x="710"
+   y="440.29999"
+   class="NnzeTDPpXC"
+   width="9.1999998"
+   height="42.900002" />
+
+	<rect
+   id="rect2498_1_"
+   x="701.29999"
+   y="440.29999"
+   class="NnzeTDPpXC"
+   width="8.6999998"
+   height="42.900002" />
+
+	<polygon
+   id="polygon2500_1_"
+   class="NnzeTDPpXC"
+   points="682,444 696.3,444 696.3,483.3 668.3,483.3 668.3,444 " />
+
+	<rect
+   id="rect2502_1_"
+   x="651.59998"
+   y="421.10001"
+   class="NnzeTDPpXC"
+   width="7.6999998"
+   height="6.0999999" />
+
+	<rect
+   id="rect2504_1_"
+   x="705.40002"
+   y="421.10001"
+   class="NnzeTDPpXC"
+   width="7.6999998"
+   height="6.0999999" />
+
+	<ellipse
+   id="ellipse2506_1_"
+   class="NnzeTDPpXC"
+   cx="684.59998"
+   cy="342.10001"
+   rx="17.5"
+   ry="18.700001" />
+
+	<ellipse
+   id="ellipse2508_1_"
+   class="NnzeTDPpXC"
+   cx="684.59998"
+   cy="341.60001"
+   rx="12"
+   ry="12.8" />
+
+	<polyline
+   id="polyline2510_1_"
+   class="wvwBTQqkLx"
+   points="683.9,291.2 683.9,283.2 683.9,262.7  " />
+
+	<polygon
+   id="polygon2512_1_"
+   class="NnzeTDPpXC"
+   points="712.8,266 701.6,274.7 712.8,283.4 683.9,283.2 683.9,266 " />
+
+</g>
 </svg>
