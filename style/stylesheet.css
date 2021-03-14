@@ -12,23 +12,20 @@ p {
   font-family: 'IBM Plex Mono', monospace;
 }
 
-body {
-    overflow: hidden;
-}
-
 svg {
     display: flex;
 }
 
+body {
+	 height: auto;
+	min-height: 0.5vh;
+	max-width: 800vw;
+    width: 800vw;
+}
+
 #map {
-    z-index: 9;
-    overflow: hidden;
-    position: absolute;
-    left: -110vw;
-    top: -60vw;
-    width: 319vw;
-    /*width: 100%;*/
     transform: scale(1.0);
+    position: relative;
 }
 
 * {
@@ -78,8 +75,8 @@ svg {
 }
 
 @keyframes duck_a {
-  50% { transform: translate(150px, -200px) }
-  100% { transform: translate(-190px, -180px) }
+  50% { transform: translate(2.4vw, -2.9vh) }
+  100% { transform: translate(-7vw, -3vh) }
 }
 
 .duck1-home {
@@ -87,8 +84,8 @@ svg {
 }
 
 @keyframes duck_b {
-  50% { transform: translate(-100px, 120px) }
-  100% { transform: translate(-180px, -129px) }
+  50% { transform: translate(-1.43vw, 1.8vh); }
+  100% { transform: translate(-6.5vw, -2.5vh); }
 }
 
 .duck2-home {
@@ -96,8 +93,8 @@ svg {
 }
 
 @keyframes duck_c {
-  50% { transform: translate(0px, 150px) }
-  100% { transform: translate(-320px, -240px) }
+  50% { transform: translate(0vw, 2.15vh) }
+  100% { transform: translate(-11vw, -4.5vh) }
 }
 
 .anim {
