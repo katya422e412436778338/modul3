@@ -1,5 +1,13 @@
 $(document).ready(function() {
+
+  document.getElementById('map').scrolling = "no";
+
+  // $('#map').draggable({
+    // scroll: false,
+  // });
   new ScrollZoom($('#map'), 5, 0.25);
+
+  // $('#map').mapbox({mousewheel: true});
 });
 
 function ScrollZoom(container, maxScale, factor) {

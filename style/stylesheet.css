@@ -8,6 +8,10 @@
     -o-user-select:none;
 }
 
+body {
+  overflow: scroll;
+}
+
 p {
   font-family: 'IBM Plex Mono', monospace;
 }
