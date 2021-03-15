@@ -16,16 +16,73 @@ svg {
     display: flex;
 }
 
-body {
-	 height: auto;
-	min-height: 0.5vh;
-	max-width: 800vw;
-    width: 800vw;
+@media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)  {
+  body { width: 500vw; }
+}
+
+
+
+@media (min-width:801px)  { body { width: 700vw; } }
+@media (min-width:1025px) { body { width: 1500vw; } }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+@media only screen  /*iPad Pro 10.5*/
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body { width: 1500vw; }
+}
+
+/* iPhone 6 */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    body { width: 600vw; }
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    body { width: 300vw; }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    body { width: 600vw; }
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 #map {
-    transform: scale(1.0);
+    /*transform: scale(1);*/
+    /*overflow: hidden;*/
     position: relative;
+}
+.dragscroll {
+  background-color : #283849;
+  overflow: auto;
+  cursor : -webkit-grab;
+  cursor : -moz-grab;
+  cursor : -o-grab;
+  cursor : grab;
+  margin: 30px auto;
+  color: #fff;
+}
+.dragscroll:active {
+  cursor : -webkit-grabbing;
+  cursor : -moz-grabbing;
+  cursor : -o-grabbing;
+  cursor : grabbing;
 }
 
 * {

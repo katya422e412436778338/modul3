@@ -1,7 +1,4 @@
 $(document).ready(function() {
-  $("#map").draggable({
-    // containment: [10000, 10000, 10000, 10000]
-  });
   new ScrollZoom($('#map'), 5, 0.25);
 });
 
@@ -16,6 +13,7 @@ function ScrollZoom(container, maxScale, factor) {
   target.on('mousewheel DOMMouseScroll', scrolled);
 
   function scrolled(e) {
+    if (e.ctrlKey) {
     const offset = container.offset();
     zoomPoint.x = e.pageX - offset.left;
     zoomPoint.y = e.pageY - offset.top;
@@ -56,6 +54,7 @@ function ScrollZoom(container, maxScale, factor) {
     }
 
     update();
+    } 
   }
 
   function update() {

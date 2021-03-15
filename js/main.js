@@ -14,6 +14,14 @@ let insectsClicked = 0;
 
 let highlightingStopped = false;
 
+function startup() {
+  if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+  window.location.href = '#path2298';
+  window.scrollBy({top: -100});
+}
+
 function closeWindow(e) {
   document.getElementById(e).style.visibility = 'hidden';
 }
