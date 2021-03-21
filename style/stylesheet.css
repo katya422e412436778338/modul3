@@ -136,8 +136,8 @@ body::-webkit-scrollbar {
 }
 
 @keyframes duck_a {
-  50% { transform: translate(2.4vw, -2.9vh) }
-  100% { transform: translate(-7vw, -3vh) }
+  50% { transform: translate(150px, -200px) }
+  100% { transform: translate(-190px, -180px) }
 }
 
 .duck1-home {
@@ -145,8 +145,8 @@ body::-webkit-scrollbar {
 }
 
 @keyframes duck_b {
-  50% { transform: translate(-1.43vw, 1.8vh); }
-  100% { transform: translate(-6.5vw, -2.5vh); }
+  50% { transform: translate(-100px, 120px) }
+  100% { transform: translate(-180px, -129px) }
 }
 
 .duck2-home {
@@ -154,10 +154,13 @@ body::-webkit-scrollbar {
 }
 
 @keyframes duck_c {
-  50% { transform: translate(0vw, 2.15vh) }
-  100% { transform: translate(-11vw, -4.5vh) }
+  50% { transform: translate(0px, 150px) }
+  100% { transform: translate(-320px, -240px) }
 }
 
+.anim {
+  transition-duration: 5s;
+}
 .anim {
   transition-duration: 5s;
 }
