@@ -1,10 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    if ('scrollRestoration' in history) {
+  if ('scrollRestoration' in history) {
     history.scrollRestoration = 'manual';
   }
   window.location.href = '#rect165';
-  // window.scrollBy(-500,);
 
 dragElement(document.getElementById("map"));
 

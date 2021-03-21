@@ -117,6 +117,9 @@ function duck() {
           ducksCompleted = true;
           closeWindow('windowX');
           unclickable('animal13');
+          for (let d = 0; d <3; ++d) {
+            unclickable(`duck${d}`);
+          }
         }
       };
     }
