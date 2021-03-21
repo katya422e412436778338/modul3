@@ -1,13 +1,7 @@
 $(document).ready(function() {
 
   document.getElementById('map').scrolling = "no";
-
-  // $('#map').draggable({
-    // scroll: false,
-  // });
   new ScrollZoom($('#map'), 5, 0.25);
-
-  // $('#map').mapbox({mousewheel: true});
 });
 
 function ScrollZoom(container, maxScale, factor) {
@@ -41,6 +35,7 @@ function ScrollZoom(container, maxScale, factor) {
     // apply zoom
     scale += delta*factor * scale;
     scale = Math.max(1, Math.min(maxScale, scale));
+    console.log(scale);
 
     // calculate x and y based on zoom
     pos.x = -zoomTarget.x * scale + zoomPoint.x;

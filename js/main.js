@@ -49,6 +49,7 @@ function hippo() { // Бегемот, показать конфеты и окр�
       bucket.onclick = null;
       bucket.classList.remove('button');
       unclickable('animal12');
+      unclickable('g765');
     };
   }
 }
