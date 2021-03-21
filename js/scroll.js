@@ -1,44 +1,36 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const ele = document.getElementById('map');
-    ele.style.cursor = 'grab';
+dragElement(document.getElementById("map"));
 
-    let pos = { top: 0, left: 0, x: 0, y: 0 };
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    elmnt.onmousedown = dragMouseDown;
+  }
 
-    const mouseDownHandler = (e) => {
-        ele.style.cursor = 'grabbing';
-        ele.style.userSelect = 'none';
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    document.onmousemove = elementDrag;
+  }
 
-        pos = {
-            left: ele.scrollLeft,
-            top: ele.scrollTop,
-            // Get the current mouse position
-            x: e.clientX,
-            y: e.clientY,
-        };
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    window.scrollBy(pos1, pos2);
+  }
 
-        document.addEventListener('mousemove', mouseMoveHandler);
-        document.addEventListener('mouseup', mouseUpHandler);
-    };
-
-    const mouseMoveHandler = (e) => {
-        // How far the mouse has been moved
-        let dx = e.clientX - pos.x;
-        let dy = e.clientY - pos.y;
-
-        dx/=30;
-        dy/=30;
-
-        window.scrollBy(-dx, -dy);
-    };
-
-    const mouseUpHandler = () => {
-        ele.style.cursor = 'grab';
-        ele.style.removeProperty('user-select');
-
-        document.removeEventListener('mousemove', mouseMoveHandler);
-        document.removeEventListener('mouseup', mouseUpHandler);
-    };
-
-    // Attach the handler
-    ele.addEventListener('mousedown', mouseDownHandler);
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
 });
