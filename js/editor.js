@@ -1,4 +1,3 @@
-
 let currentMenu = null;
 
 let state = {
