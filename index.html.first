@@ -4,6 +4,6 @@
   <link href="style/stylesheet.css" rel="stylesheet">
   <title>Зоопарк</title>
 </head>
-<body onLoad="window.scroll(2600, 0)">
+<body>
     <div id="map">
         <div class="row" id="row">

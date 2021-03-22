@@ -1,8 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-
-  if ('scrollRestoration' in history) {
-    history.scrollRestoration = 'manual';
-  }
   window.location.href = '#rect165';
 
 dragElement(document.getElementById("map"));

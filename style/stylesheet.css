@@ -59,34 +59,12 @@ svg {
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
-    body { width: 600vw; }
+    body { width: 400vw; }
 }
 
 body::-webkit-scrollbar {
   width: 0;
   height: 0;
-}
-
-#map {
-    /*transform: scale(1);*/
-    /*overflow: hidden;*/
-    position: relative;
-}
-.dragscroll {
-  background-color : #283849;
-  overflow: auto;
-  cursor : -webkit-grab;
-  cursor : -moz-grab;
-  cursor : -o-grab;
-  cursor : grab;
-  margin: 30px auto;
-  color: #fff;
-}
-.dragscroll:active {
-  cursor : -webkit-grabbing;
-  cursor : -moz-grabbing;
-  cursor : -o-grabbing;
-  cursor : grabbing;
 }
 
 * {
@@ -102,16 +80,6 @@ body::-webkit-scrollbar {
   flex: 33.3333%;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-}
-
-.segment {
-    float: left;
-    display: flex;
-}
-
 .button {
   cursor: pointer;
 }
@@ -121,10 +89,6 @@ body::-webkit-scrollbar {
     animation: mover 1s infinite  alternate;
 }
 
-@-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
-}
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
@@ -158,9 +122,6 @@ body::-webkit-scrollbar {
   100% { transform: translate(-320px, -240px) }
 }
 
-.anim {
-  transition-duration: 5s;
-}
 .anim {
   transition-duration: 5s;
 }
