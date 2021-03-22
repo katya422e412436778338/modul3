@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  window.location.href = '#rect165';
+window.scrollBy(1200, 600);
 
 dragElement(document.getElementById("map"));
 
